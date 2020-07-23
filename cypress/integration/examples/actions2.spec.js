@@ -26,6 +26,7 @@ context('Actions', () => {
           cy.screenshot();
   
           expect(true).to.equal(true)
+          expect(true).to.equal(true)
   
           
       })
