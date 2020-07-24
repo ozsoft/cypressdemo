@@ -1,4 +1,4 @@
-
+/*
 /// <reference types="Cypress" />
 
 context('Actions', () => {
@@ -33,4 +33,4 @@ context('Actions', () => {
     })
   
   })
-  
+  */
