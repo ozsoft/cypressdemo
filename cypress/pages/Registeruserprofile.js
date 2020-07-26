@@ -20,13 +20,14 @@ class RegisterUserProfile {
     // #mainForm > div.login__header.pt-5.pb-5 > div:nth-child(22) > div.checkbox-column > label > span
     //btnContinue
 
+    sum = (a,b) => a+b; 
 
 
     selectNotInEmployment()
     {
 
-        const NotInEmployment = cy.get("#mainForm > div.login__header.pt-5.pb-5 > div:nth-child(15) > div:nth-child(2) > label > span")
-        NotInEmployment.select()
+        const NotInEmployment = cy.get('[id=notEmployed]')
+        NotInEmployment.click({force : true})
         return this
 
     }
@@ -89,7 +90,7 @@ class RegisterUserProfile {
     {
 
         const HomeAddressCountry = cy.get('[id=HomeAddressCountry]')
-        Mobile.select(value)
+        HomeAddressCountry.select(value)
         return this
 
     }
