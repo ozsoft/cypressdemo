@@ -18,7 +18,7 @@ require('@cypress/skip-test/support')
   
   
         cy.get('[id="LoginEmail"]').type("001732373D")
-        cy.get('[id="LoginPassword"]').type("testweb1")
+        cy.get('[id="LoginPassword"]').type("*****")
   
         cy.get('[id="login"]').click()
   
