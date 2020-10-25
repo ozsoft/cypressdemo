@@ -6,7 +6,7 @@ class Homepage
 
     visit()
     {
-        cy.visit("https://www.ciigroup.org/en/");
+        cy.visit("https://www.cii.co.uk");
     }
 
     clickLogin()

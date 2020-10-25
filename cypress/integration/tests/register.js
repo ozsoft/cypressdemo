@@ -30,7 +30,7 @@ before('before ',()=>{
 
 })
 
-describe('RegisterUser', () => {
+describe('LoginAndRegisterTests', () => {
 
 
 
@@ -77,6 +77,7 @@ describe('RegisterUser', () => {
         .invoke('text')
         .then(sometext => cy.log(sometext));
 
+        /*
         scg.visit()
         scg.clickLogin()
         ln.fillLoginEmailOrPin('001705261A')
@@ -87,6 +88,7 @@ describe('RegisterUser', () => {
         .should('have.text', '001705261A')  
         .invoke('text')
         .then(sometext => cy.log(sometext));
+        */
 
 
     })
@@ -102,7 +104,7 @@ describe('RegisterUser', () => {
 
 
 
-        /*
+        
         hp.visit()
         hp.clickSignup()
         bws.fillFirstName(c.word({ length: 20}))
@@ -130,15 +132,6 @@ describe('RegisterUser', () => {
         rup.fillPreferedName('test')
         rup.selectNotInEmployment()
         rup.clickbtnContinue()
-        */
-
-
-        
-
-
-
-
-
     })
   })
 

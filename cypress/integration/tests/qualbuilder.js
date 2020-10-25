@@ -1,6 +1,6 @@
 
 // <reference types="Cypress" />
-
+/*
 require('@cypress/skip-test/support')
 
 
@@ -34,5 +34,5 @@ require('@cypress/skip-test/support')
       })
     })
   
-  
+  */
   
