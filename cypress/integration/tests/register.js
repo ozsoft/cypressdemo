@@ -93,6 +93,7 @@ describe('LoginAndRegisterTests', () => {
 
     })
 
+    /*
     it('RegisterPin', () => {
         
         const bws = new BeforeWeStart()
@@ -133,6 +134,7 @@ describe('LoginAndRegisterTests', () => {
         rup.selectNotInEmployment()
         rup.clickbtnContinue()
     })
+    */
   })
 
 
