@@ -34,10 +34,5 @@ require('@cypress/skip-test/support')
       })
     })
   
-<<<<<<< HEAD
   */
   
-=======
-  
-  
->>>>>>> master
